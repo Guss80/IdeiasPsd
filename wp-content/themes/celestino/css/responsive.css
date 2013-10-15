@@ -1,0 +1,31 @@
+/* Large desktop */
+@media (min-width: 1200px) { }
+ 
+/* Portrait tablet to landscape and desktop */   
+@media (min-width: 768px) and (max-width: 1024px) { #footer .recent-posts .hentry .text p { display:none; } }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {                                  
+    /* === HEADER */           
+    #topbar { text-align:center; }
+    #topbar .widget-first { display:none; } 
+    #topbar .widget-last > div { float:none; }
+    
+    /* === BLOG */
+    .blog-small .meta { padding-left:0; }
+    
+    /* === SHORTCODES */
+    .testimonial .testimonial-text { margin-bottom:20px; }
+    
+    /* === COMMENTS */
+    #respond p { display:inline-block; width:100% !important; max-width:100%; clear:both; }  
+    #respond input[type="text"], #respond textarea { width:95% !important; }  
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+}
+ 
+/* Portrait phones and down */
+@media (max-width: 320px) {
+}
